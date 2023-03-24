@@ -67,12 +67,12 @@
 
 ### Manual
 
-  * Un-zip `SkToolbox.dll` to your `/Valheim/BepInEx/plugins/` folder.
+  * Un-zip `ComfyToolbox.dll` to your `/Valheim/BepInEx/plugins/` folder.
 
 ### Thunderstore (manual)
 
-  2. Go to Settings > Import local mod > Select `RegenRadar_v1.2.3.zip`.
-  3. Click "OK/Import local mod" on the pop-up for information.
+  1. Go to Settings > Import local mod > Select `ComfyToolbox.zip`.
+  2. Click "OK/Import local mod" on the pop-up for information.
 
 ## Changelog
 
