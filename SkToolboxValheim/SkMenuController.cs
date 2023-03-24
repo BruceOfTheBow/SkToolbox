@@ -16,7 +16,6 @@ namespace SkToolbox
         private string contextTipInfo1 = "NumPad Arrows";
         private string contextTipInfo2 = "NumPad 5 to Select";
         private string contextTipInfo3 = "NumPad . to Back";
-        internal static Version SkMenuControllerVersion = new Version(1, 5, 0); // 09/2021
 
         internal static Status SkMenuControllerStatus = Status.Initialized;
 

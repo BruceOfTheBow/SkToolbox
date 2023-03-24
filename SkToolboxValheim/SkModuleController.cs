@@ -12,7 +12,6 @@ namespace SkToolbox
     public class SkModuleController : MonoBehaviour
     {
         #region Initializations
-        private static Version SkMainVersion = new Version(1, 1, 3); // 12/2020
 
         internal Status SkMainStatus = Status.Initialized;
 

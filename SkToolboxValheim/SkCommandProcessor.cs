@@ -132,20 +132,6 @@ namespace SkToolbox
 
         public static void Announce()
         {
-            if (SkConfigEntry.CScrollable != null & !SkConfigEntry.CScrollable.Value)
-            {
-                if (SkVersionChecker.VersionCurrent())
-                {
-                    PrintOut("====  Toolbox (" + SkVersionChecker.currentVersion + ") by Skrip (DS) is enabled.\t\t====", LogTo.Console);
-                }
-                else
-                {
-                    PrintOut("Toolbox by Skrip (DS) is enabled.", LogTo.Console);
-                    PrintOut("New Version Available on NexusMods!\t► Current: " + SkVersionChecker.currentVersion + " Latest: " + SkVersionChecker.latestVersion, LogTo.Console | LogTo.DebugConsole);
-                }
-
-                PrintOut("====  Press numpad 0 to open on-screen menu or type /? 1\t====", LogTo.Console);
-            }
             try
             {
                 commandList = commandList.OrderBy(obj => obj.Key).ToDictionary(obj => obj.Key, obj => obj.Value); // Try to sort the commands in case I gave up with it eventually, lol.
@@ -2624,7 +2610,7 @@ namespace SkToolbox
         {
             if (Chat.instance != null)
             {
-                Chat.instance.OnNewChatMessage(null, 999, chatPos, Talker.Type.Normal, source, ln);
+                Chat.instance.OnNewChatMessage(null, Player.m_localPlayer.GetPlayerID(), chatPos, Talker.Type.Normal, UserInfo.GetLocalUser(), ln, PrivilegeManager.GetNetworkUserId());
                 SkUtilities.SetPrivateField(Chat.instance, "m_hideTimer", 0f);
                 Chat.instance.m_chatWindow.gameObject.SetActive(true);
                 Chat.instance.m_input.gameObject.SetActive(true);

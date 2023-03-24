@@ -1,0 +1,8 @@
+{
+  "name": "ComfyToolbox",
+  "version_number": "1.0.0",
+  "author": "Bruceofthebow",
+  "description": "Toolbox for Comfy Valheim.",
+  "website_url": "",
+  "dependencies": [ "denikson-BepInExPack_Valheim-5.4.2100" ]
+}

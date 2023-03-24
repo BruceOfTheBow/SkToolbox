@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SkToolboxValheim")]
-[assembly: AssemblyDescription("SkToolbox")]
+[assembly: AssemblyTitle("ComfyToolbox")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SkToolboxValheim")]
+[assembly: AssemblyProduct("ComfyToolbox")]
 [assembly: AssemblyCopyright("Skrip (DS) Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.10.5.0")]
-[assembly: AssemblyFileVersion("1.10.5.0")]
+[assembly: AssemblyVersion(SkToolbox.ComfyToolbox.PluginVersion)]
+[assembly: AssemblyFileVersion(SkToolbox.ComfyToolbox.PluginVersion)]

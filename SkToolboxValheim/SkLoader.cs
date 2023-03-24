@@ -15,7 +15,7 @@ namespace SkToolbox
     public class SkLoader : MonoBehaviour
     {
         private static GameObject _SkGameObject;
-        private static SkBepInExLoader BepLoader;
+        private static ComfyToolbox BepLoader;
         private static bool FirstLoad = true;
         private static bool InitLogging = false;
 
@@ -69,7 +69,7 @@ namespace SkToolbox
             }).Start();
         }
 
-        public static void InitBepThreading(SkBepInExLoader bepLoader)
+        public static void InitBepThreading(ComfyToolbox bepLoader)
         {
             BepLoader = bepLoader;
             new Thread(() =>
