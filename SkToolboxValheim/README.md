@@ -24,32 +24,32 @@
   * /imacheater - Use the toolbox to force enable standard cheats on any server (some are non-functional still. Work in progress!)
   * /infstam - Toggles infinite stamina
   * /killall - Kills all nearby creatures
-  */listitems [Name Contains] - List all items. Optionally include name contains. Ex. /listitems Woo returns any item that contains the letters 'Woo'
-  */listprefabs [Name Contains] - Lists all prefabs - List all prefabs/creatures. Optionally include name starts with. Ex. /listprefabs Troll returns any prefab that starts with the letters 'Troll'
-  */listskills - Lists all skills
-  */nocost - Toggle no requirement building
-  */nores - Toggle building restrictions (build anywhere except ward zones)
-  */nosup - Toggle building support requirements  - WARNING! - If you rejoin and this is disabled, your structures may fall apart. I recommend using this with the autorun functionality.
-  */optterrain - Optimize old terrain modifications. Added so this can be used from chat by default.
-  */portals - List all portal tags
-  */q - Exit the game quickly
-  */removedrops - Removes items from the ground
-  */repair - Repair your inventory
-  */resetmap - Reset the map exploration
-  */resetwind - If wind has been set, this will allow the game to take control of the wind again
-  */revealmap - Reveals the entire minimap
-  */seed - Reveals the current world seed
-  */set cw [Weight] - Set your weight limit (default 300)
-  */set difficulty [Player Count] - Set the difficulty (default is number of connected players)
-  */set exploreradius [Radius] - Set the explore radius (default = 100)
-  */set jumpforce [Force] - Set jump force (default 10). Careful if you fall too far!
-  */set pickup [Radius] - Set your auto pickup radius (default 2)
-  */set skill [Skill] [Level] - Set your skill level
-  */set speed [Speed Type] [Speed] - Speed Types: crouch (def: 2), run (def: 7), swim (def: 2)
-  */spawn [Creature Name] [Level=1] - Spawns a creature or prefab? in front of you. Capitals in name matter! (Use /give for items!) Use /listprefabs to search for creatures and prefabs!
+  * /listitems [Name Contains] - List all items. Optionally include name contains. Ex. /listitems Woo returns any item that contains the letters 'Woo'
+  * /listprefabs [Name Contains] - Lists all prefabs - List all prefabs/creatures. Optionally include name starts with. Ex. /listprefabs Troll returns any prefab that starts with the letters 'Troll'
+  * /listskills - Lists all skills
+  * /nocost - Toggle no requirement building
+  * /nores - Toggle building restrictions (build anywhere except ward zones)
+  * /nosup - Toggle building support requirements  - WARNING! - If you rejoin and this is disabled, your structures may fall apart. I recommend using this with the autorun functionality.
+  * /optterrain - Optimize old terrain modifications. Added so this can be used from chat by default.
+  * /portals - List all portal tags
+  * /q - Exit the game quickly
+  * /removedrops - Removes items from the ground
+  * /repair - Repair your inventory
+  * /resetmap - Reset the map exploration
+  * /resetwind - If wind has been set, this will allow the game to take control of the wind again
+  * /revealmap - Reveals the entire minimap
+  * /seed - Reveals the current world seed
+  * /set cw [Weight] - Set your weight limit (default 300)
+  * /set difficulty [Player Count] - Set the difficulty (default is number of connected players)
+  * /set exploreradius [Radius] - Set the explore radius (default = 100)
+  * /set jumpforce [Force] - Set jump force (default 10). Careful if you fall too far!
+  * /set pickup [Radius] - Set your auto pickup radius (default 2)
+  * /set skill [Skill] [Level] - Set your skill level
+  * /set speed [Speed Type] [Speed] - Speed Types: crouch (def: 2), run (def: 7), swim (def: 2)
+  * /spawn [Creature Name] [Level=1] - Spawns a creature or prefab? in front of you. Capitals in name matter! (Use /give for items!) Use /listprefabs to search for creatures and prefabs!
     * Please note that as of Valheim version 0.151.1, the game only shows up to 2 stars for creatures, but there is currently a level cap of 10 with this command. Creatures higher than level 3 will show 0 stars, but are in fact the higher level.
-  */spawntamed [Creature Name] [Level=1] - Spawns a tamed creature in front of you. Capitals in name matter! Use /listprefabs to search for creatures!
-  */stopevent - Stops a current event
+  * /spawntamed [Creature Name] [Level=1] - Spawns a tamed creature in front of you. Capitals in name matter! Use /listprefabs to search for creatures!
+  * /stopevent - Stops a current event
   * /tame - Tame all nearby creatures
   * /tod [0-1] - Set time of day (-1 to unlock time) - /tod 0.5
   * /tp [X,Z] - Teleport you to the coords
