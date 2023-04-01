@@ -9,7 +9,7 @@ namespace SkToolbox {
   public class ComfyToolbox : BaseUnityPlugin {
     public const string PluginGUID = "bruce.valheim.comfytoolbox";
     public const string PluginName = "ComfyToolbox";
-    public const string PluginVersion = "1.0.0";
+    public const string PluginVersion = "1.1.0";
 
     private void Start() {
       InitConfig();

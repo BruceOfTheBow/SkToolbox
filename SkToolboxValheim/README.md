@@ -3,6 +3,8 @@
   * Toolbox for Comfy Valheim.
 
 ## Instructions
+  * `goto 0 0 1000` Moves player to (X, Y, Z): (0, 1000, 0). Y value is height.
+  * `gotoxyz 0 0 1000` Moves player to (X, Y, Z): (0, 1000, 0). Y value is height.
 
 ### SkToolbox Command List
   * /alt - Use alternate on-screen controls. Press HOME to toggle if active.
@@ -75,6 +77,10 @@
   2. Click "OK/Import local mod" on the pop-up for information.
 
 ## Changelog
+
+### 1.1.0
+
+  * Added command gotoxyz which is used in place of goto to enable teleportation to Y coordinates.
 
 ### 1.0.0
 
