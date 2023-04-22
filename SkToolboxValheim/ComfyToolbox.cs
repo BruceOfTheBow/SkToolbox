@@ -4,12 +4,18 @@ using SkToolbox.Utility;
 using System;
 using UnityEngine;
 // Thank you to wh0am15533 for the BepInEx examples
+using static ComfyToolbox.PluginConfig;
+
 namespace SkToolbox {
   [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
   public class ComfyToolbox : BaseUnityPlugin {
     public const string PluginGUID = "bruce.valheim.comfytoolbox";
     public const string PluginName = "ComfyToolbox";
-    public const string PluginVersion = "1.1.0";
+    public const string PluginVersion = "1.1.1";
+
+    public void Awake() {
+      BindConfig(Config);
+    }
 
     private void Start() {
       InitConfig();

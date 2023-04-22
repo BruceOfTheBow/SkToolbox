@@ -78,6 +78,10 @@
 
 ## Changelog
 
+### 1.1.1
+
+  * Added config toggle for world menu. **Unbound by default.**
+
 ### 1.1.0
 
   * Added command gotoxyz which is used in place of goto to enable teleportation to Y coordinates.

@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using static SkToolbox.Utility.SkUtilities;
 
+using static ComfyToolbox.PluginConfig;
+
 namespace SkToolbox
 {
     /// <summary>
@@ -93,7 +95,7 @@ namespace SkToolbox
                 }
             }
             //Keycode menu activation
-            if (Input.GetKeyDown(keyBindings["selToggle"]))
+            if (WorldMenuToggle.Value.IsDown())
             {
                 displayWelcome = false;
                 menuOpen = !menuOpen;
