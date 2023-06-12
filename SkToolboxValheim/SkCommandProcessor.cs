@@ -947,7 +947,7 @@ namespace SkToolbox {
             }
             if (ZNetObject.Length > 0) {
               try {
-                component.GetZDO().SetPGWVersion(ZNetObject[0].GetZDO().GetPGWVersion());
+                component.GetZDO().DataRevision = ZNetObject[0].GetZDO().DataRevision;
                 ZNetObject[0].GetZDO().Set("spawn_id", component.GetZDO().m_uid);
                 ZNetObject[0].GetZDO().Set("alive_time", ZNet.instance.GetTime().Ticks);
               } catch (Exception) {
@@ -2377,7 +2377,7 @@ namespace SkToolbox {
       private static void CreateTerrain(GameObject prefab, Vector3 position, ZNetView component) {
         float levelOffset = prefab.GetComponent<TerrainModifier>().m_levelOffset;
         GameObject terrainObject = UnityEngine.Object.Instantiate(prefab, position - Vector3.up * levelOffset, Quaternion.identity);
-        terrainObject.GetComponent<ZNetView>().GetZDO().SetPGWVersion(component.GetZDO().GetPGWVersion());
+        terrainObject.GetComponent<ZNetView>().GetZDO().DataRevision = component.GetZDO().DataRevision;
       }
 
       //Thank you to BlueAmulet for this code
