@@ -78,6 +78,10 @@
 
 ## Changelog
 
+### 1.2.0
+
+  * Updated for compatibility with patch 0.216.9.
+
 ### 1.1.1
 
   * Added config toggle for world menu. **Unbound by default.**
